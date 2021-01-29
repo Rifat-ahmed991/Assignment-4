@@ -113,7 +113,7 @@
         <h2> Have a nice journey</h2>
     </section>
     <script>
-        function handleSitBook(sit, isIncrease) {
+            function handleSitBook(sit, isIncrease) {
              const sitCount = getInputValue(sit);
              let sitNewCount = sitCount;
              if (isIncrease == true) {
@@ -152,17 +152,17 @@
              const sitInput = document.getElementById(sit + '-count');
              const sitCount = parseInt(sitInput.value);
              return sitCount;
-         }
+            }
 
-         // Booking button event handler
-         const bookingBtn = document.getElementById("booking");
-         bookingBtn.addEventListener("click", function(){
-         const bookingArea = document.getElementById("booking-area");
-         bookingArea.style.display = "none";
-         const confirmationArea = document.getElementById("confirmation-area");
-         confirmationArea.style.display = "block";
-        
-        })
+            // Booking button event handler
+            const bookingBtn = document.getElementById("booking");
+            bookingBtn.addEventListener("click", function(){
+            const bookingArea = document.getElementById("booking-area");
+            bookingArea.style.display = "none";
+            const confirmationArea = document.getElementById("confirmation-area");
+            confirmationArea.style.display = "block";
+            
+            })
      </script>
 
     <!--Thank You-->
